@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&display=swap');
+
+:root {
+  --body-copy: 14px;
+  --page-spacing: 10px;
+
+}
+.navbar {
+    overflow: hidden;
+    background-color: orangered;
+    position:fixed; 
+    top:0; 
+    width:150%;
+    margin-left:0%;
+}
+
+h2{
+    display:grid;
+    color:tomato;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left:30%;
+    width:200px;
+    font-size:medium;
+    height:auto;
+}
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  .main {
+    margin-top: 30px; 
+  }
+
+.description{
+    width:500px;
+    font-size:xx-small;
+}
+
+body{
+    background-image:url(https://d2w9rnfcy7mm78.cloudfront.net/5080340/original_6c96b684625a67cf0e517d46950c6abf.gif?1569206486?bc=0);
+    background-size: 50%;
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+    
+
+}
+.wrapper {
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 40ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+h3{
+    color:antiquewhite;
+
+}
+h1{
+    color:aliceblue;
+    font-family:'Arimo', sans-serif;
+    font-size: 450%;
+    margin-top:50px; 
+    writing-mode:vertical-lr;
+    padding-top:20px;
+    height:100%;
+    text-indent: 20%;
+
+}
+@media (min-width: 768px){
+  h1{
+    padding-right:calc(var(--page-spacing)*0.5);
+    font-size:130px;
+  }
+}
+
+p{
+    color:orangered;
+    font-size:small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body,
+section,
+ul,
+figure {
+	display: grid;
+  grid-template-columns: 1fr 1fr;
+}

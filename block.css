@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&display=swap');
+
+.navbar {
+    overflow: hidden;
+    background-color: orangered;
+    position:fixed; 
+    top:0; 
+    width:150%;
+    margin-left:0%;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+h1{
+    color:aliceblue;
+    font-family:'Arimo', sans-serif;
+    font-size: 350%;
+    margin-top:100px; 
+}
+h3{
+    font-size:medium;
+    color:bisque;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:italic;
+}
+body{
+    background-image:url("https://d2w9rnfcy7mm78.cloudfront.net/6625406/original_9e6630d103e2688637cc9b451b50938f.jpg?1585436473?bc=0");
+    background-size: 50%;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:small;
+    color:tomato;
+   
+}
+
+.image-block{
+    overflow:hidden;
+    width:200px;
+    height:200px;
+     flex-wrap: wrap;
+    flex-direction: row;
+    float: left;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:small;
+    color:tomato;
+}
+.video-file-block{
+    overflow:hidden;
+    width:200px;
+    height:200px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:small;
+    color:tomato;
+}
+.video-embed-block{
+    overflow:hidden;
+    width:200px;
+    height:200px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:small;
+    color:tomato;
+}
+.image{
+    display: block;
+	width: 70%;
+    transition: transform .2s;
+  height: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.image:hover{
+    transform: scale(1.5);
+}

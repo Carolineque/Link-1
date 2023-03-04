@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="block.css" rel="stylesheet">
+        <link href="reset.css" rel="stylesheet">
+        <script defer src="arena.js"></script>
+	</head>
+	<body>
+        <div class="navbar">
+            <a href="index.html">Link:project</a>
+            <a href="img.html">Images</a>
+            <a href="videos.html">Videos</a>
+          </div>
+        <a href="https://www.are.na/hamza-iqbal-ktujd8e3wzy/cocktails-vtfgtswqyfm" id="channel-url">
+            <h1 class="Chilling Glasses"></h1> 
+            <h1>VIDEOS</h1>
+			<h3>Here are some FUN VIDEOS that related to the </br>cocktails, tools and dizzy feelings.</h3>
+        </a>
+    <section>
+            <ul class="video-embed-blocks video-file-blocks">
+            </ul>
+        </section>
+		<template id="video-embed-block">
+			<li>
+				<figure class="video-embed-block">
+					<h3 class="title"></h3>
+					<picture>
+						<source class="image-thumb">
+						<source class="image-square">
+						<source class="image-display">
+						<img class="image">
+					</picture>
+					
+				
+					<p class="type"></p>
+					<p class="time-updated"></p>
+					<p class="time-created"></p>
+				</figure>
+			</li>
+		</template>
+		<template id="video-file-block">
+			<li>
+				<figure class="video-file-block">
+					<h3 class="title"></h3>
+					<picture>
+						<source class="image-thumb">
+						<source class="image-square">
+						<source class="image-display">
+						<img class="image">
+					</picture>
+					<video class="video" controls></video> <!-- Video source inserts here. -->
+					<figcaption class="description"></figcaption>
+					<p class="type"></p>
+					<p class="time-updated"></p>
+					<p class="time-created"></p>
+				</figure>
+			</li>
+		</template>
+        </body>
